@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../Components/navbar/Navbar'
+import TextComponent from '../Components/home-components/TextComponent'
 import './style/home.css'
 
 class Home extends React.Component {
@@ -7,13 +8,7 @@ class Home extends React.Component {
 		return (
 			<div>
 				<Navbar />
-				<p>
-					So, you want to travel to Space Let’s face it; if you want
-					to go to space, you might as well genuinely go to outer
-					space and not hover kind of on the edge of it. Well sit
-					back, and relax because we’ll give you a truly out of this
-					world experience! Explore
-				</p>
+				<TextComponent />
 			</div>
 		)
 	}

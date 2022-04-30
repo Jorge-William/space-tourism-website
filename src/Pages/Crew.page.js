@@ -1,5 +1,5 @@
 import React from 'react'
-import './style/'
+import './style/crew.css'
 
 class Crew extends React.Component {
 	render() {
